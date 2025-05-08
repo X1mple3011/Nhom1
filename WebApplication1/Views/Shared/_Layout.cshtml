@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - FitnessWebApp</title>
+    <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header class="text-white">
+        <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-6">
+            <div class="flex items-center space-x-2">
+                <img alt="Digifitness logo" class="w-8 h-8 rounded-full"
+                     src="https://storage.googleapis.com/a1aa/image/a7088ece-c446-4481-62c2-113c500c70c8.jpg"
+                     width="32" height="32" />
+                <span class="font-montserrat font-bold text-green-500 text-xl tracking-wide">
+                    DIGIFITNESS
+                </span>
+            </div>
+
+            <div class="flex items-center space-x-3 flex-1 max-w-xl mx-4">
+                <button class="bg-green-500 hover:bg-green-600 transition py-2 px-4 rounded-lg text-sm">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+                <input class="flex-grow rounded-md py-2 px-3 focus:ring-0 focus:outline-none text-sm border border-gray-200 placeholder:text-black bg-white text-black"
+                       placeholder="Search courses" type="text" />
+                <button class="bg-green-500 hover:bg-green-600 transition py-2 px-4 rounded-lg text-sm">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <div class="flex items-center space-x-3">
+                <a class="bg-green-500 hover:bg-green-600 transition py-2 px-4 rounded-lg text-sm text-white" asp-controller="Accounts" asp-action="Login">
+                    <i class="fa-solid fa-user"></i> Sign In
+                </a>
+                <a class="bg-white hover:bg-gray-100 text-black transition py-2 px-4 rounded-lg text-sm border border-gray-300"
+                   asp-controller="Accounts" asp-action="Register">
+                    <i class="fa-solid fa-user"></i> Sign Up
+                </a>
+            </div>
+        </div>
+
+        <nav class="p-3 bg-gray-100">
+            <ul class="px-4 max-w-7xl mx-auto flex space-x-6 text-sm font-semibold py-2">
+                <li><a class="text-green-500 hover:text-green-700 transition duration-150 uppercase font-bold" asp-controller="Home" asp-action="Index">Home</a></li>
+                <li><a class="text-green-500 hover:text-green-700 transition duration-150 uppercase font-bold" asp-controller="WorkoutPlans" asp-action="Index">Courses</a></li>
+                <li><a class="text-green-500 hover:text-green-700 transition duration-150 uppercase font-bold" href="#">Workouts</a></li>
+                <li><a class="text-green-500 hover:text-green-700 transition duration-150 uppercase font-bold" href="#">Nutrition</a></li>
+                <li><a class="text-green-500 hover:text-green-700 transition duration-150 uppercase font-bold" asp-controller="Blogs" asp-action="Index">Blog</a></li>
+                <li><a class="text-green-500 hover:text-green-700 transition duration-150 uppercase font-bold" href="#">FAQs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main role="main" class="container">
+        @RenderBody()
+    </main>
+
+    <footer>
+    </footer>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
