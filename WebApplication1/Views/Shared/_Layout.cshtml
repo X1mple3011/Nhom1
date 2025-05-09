@@ -10,7 +10,7 @@
         <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-6">
             <div class="flex items-center space-x-2">
                 <img alt="Digifitness logo" class="w-8 h-8 rounded-full"
-                     src="https://storage.googleapis.com/a1aa/image/a7088ece-c446-4481-62c2-113c500c70c8.jpg"
+                     src="~/image/img1.jpg"
                      width="32" height="32" />
                 <span class="font-montserrat font-bold text-green-500 text-xl tracking-wide">
                     WEB LUYEN TAP
@@ -42,11 +42,9 @@
         <nav class="p-3 bg-gray-100">
             <ul class="px-4 max-w-7xl mx-auto flex space-x-6 text-sm font-semibold py-2">
                 <li><a class="text-green-500 hover:text-green-700 transition duration-150 uppercase font-bold" asp-controller="Home" asp-action="Index">Trang chủ</a></li>
-                <li><a class="text-green-500 hover:text-green-700 transition duration-150 uppercase font-bold" asp-controller="WorkoutPlans" asp-action="Index">Courses</a></li>
-                <li><a class="text-green-500 hover:text-green-700 transition duration-150 uppercase font-bold" href="#">Workouts</a></li>
-                <li><a class="text-green-500 hover:text-green-700 transition duration-150 uppercase font-bold" href="#">Nutrition</a></li>
-                <li><a class="text-green-500 hover:text-green-700 transition duration-150 uppercase font-bold" asp-controller="Blogs" asp-action="Index">Blog</a></li>
-                <li><a class="text-green-500 hover:text-green-700 transition duration-150 uppercase font-bold" href="#">FAQs</a></li>
+                <li><a class="text-green-500 hover:text-green-700 transition duration-150 uppercase font-bold" asp-controller="WorkoutPlans" asp-action="Index">Chương trình tập </a></li>
+                <li><a class="text-green-500 hover:text-green-700 transition duration-150 uppercase font-bold" href="#">Bài tập</a></li>
+                <li><a class="text-green-500 hover:text-green-700 transition duration-150 uppercase font-bold" asp-controller="Blogs" asp-action="Index">Trang cộng đồng</a></li>
             </ul>
         </nav>
     </header>
@@ -65,14 +63,14 @@
             <div>
                 <div class="flex items-center space-x-2 mb-4">
                     <img alt="Digifitness logo, green square with white DF letters" class="w-8 h-8" height="32"
-                         src="https://storage.googleapis.com/a1aa/image/a7088ece-c446-4481-62c2-113c500c70c8.jpg"
+                         src="~/image/img1.jpg"
                          width="32" />
                     <span class="font-montserrat font-bold text-green-500 text-xl tracking-wide">
-                        DIGIFITNESS
+                        WEB LUYEN TAP
                     </span>
                 </div>
                 <p class="text-gray-400 mb-4 max-w-xs">
-                    400 University Drive, Suite 200, San Francisco, CA 94132
+                    18 Phố Viên, Đức Thắng, Bắc Từ Liêm, Hà Nội
                 </p>
                 <div class="flex space-x-4 text-green-500 text-lg">
                     <a aria-label="Facebook" class="hover:text-green-600" href="#">
@@ -96,22 +94,16 @@
                 <h5 class="font-semibold mb-4">Useful Links</h5>
                 <ul class="space-y-2 text-gray-400 text-sm">
                     <li>
-                        <a class="hover:text-green-500" href="#"> Home </a>
+                        <a class="hover:text-green-500" href="#"> Trang chủ </a>
                     </li>
                     <li>
-                        <a class="hover:text-green-500" href="#"> Courses </a>
+                        <a class="hover:text-green-500" href="#"> Chương trình tập </a>
                     </li>
                     <li>
-                        <a class="hover:text-green-500" href="#"> Workouts </a>
+                        <a class="hover:text-green-500" href="#"> Bài tập </a>
                     </li>
                     <li>
-                        <a class="hover:text-green-500" href="#"> Nutrition </a>
-                    </li>
-                    <li>
-                        <a class="hover:text-green-500" href="#"> Blog </a>
-                    </li>
-                    <li>
-                        <a class="hover:text-green-500" href="#"> FAQs </a>
+                        <a class="hover:text-green-500" href="#"> Trang cộng đồng </a>
                     </li>
                 </ul>
             </div>
@@ -119,9 +111,9 @@
                 <h5 class="font-semibold mb-4">Contact Us</h5>
                 <ul class="space-y-2 text-gray-400 text-sm">
                     <li>Phone: (123) 456-7890</li>
-                    <li>Email: support@digifitness.com</li>
+                    <li>Email: abc@xyzgmail.com</li>
                     <li>Fax: (123) 456-7891</li>
-                    <li>Address: 400 University Drive, Suite 200</li>
+                    <li>Address: 18 Phố Viên, Đức Thắng, Bắc Từ Liêm, Hà Nội</li>
                 </ul>
             </div>
             <div>
@@ -139,10 +131,7 @@
                 </form>
             </div>
         </div>
-        <p class="text-center text-gray-600 text-xs mt-10">
-            © 2024 Digifitness. All rights reserved. Terms of Service | Privacy
-            Policy
-        </p>
+       
     </footer>
     @RenderSection("Scripts", required: false)
 </body>
