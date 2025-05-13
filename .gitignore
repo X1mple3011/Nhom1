@@ -1,1 +1,74 @@
 WebApplication1/node_modules
+.vs/
+bin/
+obj/
+*.suo
+*.user
+*.log
+*.dbmdl
+
+
+# Thư mục và file hệ thống
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+dist/
+build/
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# MacOS
+.DS_Store
+
+# Windows
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Các file tạm
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Các file render tự động (tuỳ framework/language)
+dist/
+build/
+out/
+coverage/
+.env
+.env.*
+
+# Git
+.git/
+.gitignore
+
+# Khác (tuỳ dự án)
+# Thêm các thư mục/file tự động sinh ra khác nếu có
+
+# Backup/layout settings
+/DocumentLayout.json
+/DocumentLayout.backup.json
