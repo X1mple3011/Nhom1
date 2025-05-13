@@ -15,8 +15,12 @@
     <Folder Include="wwwroot\image\" />
   </ItemGroup>
 
-  <Target Name="Tailwind" BeforeTargets="Build">
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.18" />
+  </ItemGroup>
+
+  <!--<Target Name="Tailwind" BeforeTargets="Build">
     <Exec Command="npm run css:build" />
-  </Target>
+  </Target>-->
 
 </Project>
