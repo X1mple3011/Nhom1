@@ -1,5 +1,7 @@
 WebApplication1/node_modules
 .vs/
+obj/
+bin/
 
 # Thư mục và file hệ thống
 .DS_Store
