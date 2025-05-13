@@ -61,3 +61,7 @@ coverage/
 
 # Khác (tuỳ dự án)
 # Thêm các thư mục/file tự động sinh ra khác nếu có
+
+# Backup/layout settings
+*/DocumentLayout.json
+*/DocumentLayout.backup.json
