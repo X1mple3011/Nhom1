@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gZ5cynsAyF+3KbbvvjQ2wxuf+HkXTvo6jxhg3/6nuXk=",
+  "Hash": "DrG3rp0OH9dP+O6IuI8Gu6aTxd6toanYNQA9ZV7hniI=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8yo83hvu5n",
-      "Integrity": "UGcHqxlqcdcWQINtmWLOXORNEEMOWPbnloI9sGEXQh0=",
+      "Fingerprint": "vxlae57edz",
+      "Integrity": "k3+dckOG2hA43jZr+fEpGJ51w/geosyVDXZOLDDuv7E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
@@ -2138,51 +2138,6 @@
       ]
     },
     {
-      "Route": "css/styles.8yo83hvu5n.css",
-      "AssetFile": "C:\\Subject\\DHDN\\Nhom1\\WebApplication1\\wwwroot\\css\\styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "17902"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"UGcHqxlqcdcWQINtmWLOXORNEEMOWPbnloI9sGEXQh0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 01:53:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8yo83hvu5n"
-        },
-        {
-          "Name": "label",
-          "Value": "css/styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-UGcHqxlqcdcWQINtmWLOXORNEEMOWPbnloI9sGEXQh0="
-        }
-      ]
-    },
-    {
       "Route": "css/styles.css",
       "AssetFile": "C:\\Subject\\DHDN\\Nhom1\\WebApplication1\\wwwroot\\css\\styles.css",
       "Selectors": [],
@@ -2193,7 +2148,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17902"
+          "Value": "18246"
         },
         {
           "Name": "Content-Type",
@@ -2201,11 +2156,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UGcHqxlqcdcWQINtmWLOXORNEEMOWPbnloI9sGEXQh0=\""
+          "Value": "\"k3+dckOG2hA43jZr+fEpGJ51w/geosyVDXZOLDDuv7E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 01:53:02 GMT"
+          "Value": "Tue, 13 May 2025 01:52:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2215,7 +2170,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UGcHqxlqcdcWQINtmWLOXORNEEMOWPbnloI9sGEXQh0="
+          "Value": "sha256-k3+dckOG2hA43jZr+fEpGJ51w/geosyVDXZOLDDuv7E="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.vxlae57edz.css",
+      "AssetFile": "C:\\Subject\\DHDN\\Nhom1\\WebApplication1\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18246"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k3+dckOG2hA43jZr+fEpGJ51w/geosyVDXZOLDDuv7E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 01:52:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vxlae57edz"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k3+dckOG2hA43jZr+fEpGJ51w/geosyVDXZOLDDuv7E="
         }
       ]
     },

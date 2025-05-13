@@ -1,7 +1,12 @@
 WebApplication1/node_modules
 .vs/
-obj/
 bin/
+obj/
+*.suo
+*.user
+*.log
+*.dbmdl
+
 
 # Thư mục và file hệ thống
 .DS_Store
@@ -65,5 +70,5 @@ coverage/
 # Thêm các thư mục/file tự động sinh ra khác nếu có
 
 # Backup/layout settings
-*/DocumentLayout.json
-*/DocumentLayout.backup.json
+/DocumentLayout.json
+/DocumentLayout.backup.json
