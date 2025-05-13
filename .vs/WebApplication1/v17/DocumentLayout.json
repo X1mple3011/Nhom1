@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{589562B0-9DBA-4C28-B8E4-EAF7AEAA663A}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{589562B0-9DBA-4C28-B8E4-EAF7AEAA663A}|WebApplication1\\WebApplication1.csproj|c:\\subject\\dhdn\\nhom1\\webapplication1\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{589562B0-9DBA-4C28-B8E4-EAF7AEAA663A}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{589562B0-9DBA-4C28-B8E4-EAF7AEAA663A}|WebApplication1\\WebApplication1.csproj|c:\\subject\\dhdn\\nhom1\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{589562B0-9DBA-4C28-B8E4-EAF7AEAA663A}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{589562B0-9DBA-4C28-B8E4-EAF7AEAA663A}|WebApplication1\\WebApplication1.csproj|c:\\subject\\dhdn\\nhom1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{589562B0-9DBA-4C28-B8E4-EAF7AEAA663A}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{589562B0-9DBA-4C28-B8E4-EAF7AEAA663A}|WebApplication1\\WebApplication1.csproj|c:\\subject\\dhdn\\nhom1\\webapplication1\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{589562B0-9DBA-4C28-B8E4-EAF7AEAA663A}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Subject\\DHDN\\Nhom1\\WebApplication1\\appsettings.json",
               "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "package.json",
               "DocumentMoniker": "C:\\Subject\\DHDN\\Nhom1\\WebApplication1\\package.json",
               "RelativeDocumentMoniker": "WebApplication1\\package.json",
@@ -68,14 +68,14 @@
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Subject\\DHDN\\Nhom1\\WebApplication1\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAAACMAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAIDAAAAAAAAAAAAABQDAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-09T01:07:41.169Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "styles.css",
               "DocumentMoniker": "C:\\Subject\\DHDN\\Nhom1\\WebApplication1\\wwwroot\\css\\styles.css",
               "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\css\\styles.css",
@@ -83,11 +83,12 @@
               "RelativeToolTip": "WebApplication1\\wwwroot\\css\\styles.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAC3PwAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-08T15:58:08.339Z"
+              "WhenOpened": "2025-05-08T15:58:08.339Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Subject\\DHDN\\Nhom1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
