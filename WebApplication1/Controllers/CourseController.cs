@@ -4,16 +4,16 @@ using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
-    public class HomeController : Controller
+    public class CourseController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<CourseController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public CourseController(ILogger<CourseController> logger)
         {
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Course()
         {
             return View();
         }
