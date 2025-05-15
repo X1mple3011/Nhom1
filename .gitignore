@@ -7,6 +7,11 @@ obj/
 *.log
 *.dbmdl
 
+*.exe
+*.pdb
+*.manifest
+*.cache
+
 
 # Thư mục và file hệ thống
 .DS_Store

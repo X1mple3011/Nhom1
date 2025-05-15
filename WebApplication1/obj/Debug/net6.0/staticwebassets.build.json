@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NVDdjZKL7XVn0zK+zHMG4cc1nhHya/lWDGK+4Ou3qlw=",
+  "Hash": "Rxll/Ug5X6xw70pz8omwuJSar+GWLTWGhSKMLM2WVos=",
   "Source": "WebApplication1",
   "BasePath": "_content/WebApplication1",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "WebApplication1\\wwwroot",
       "Source": "WebApplication1",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplication1.styles.css",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplication1.styles.css",
       "SourceId": "WebApplication1",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "WebApplication1#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "JIHtoqiOEx4n3EfUawAxIBUQYPMUUOLVg6HW7014bxo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Nhom1\\WebApplication1\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplication1.styles.css"
+      "OriginalItemSpec": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplication1.styles.css"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
       "SourceId": "WebApplication1",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "WebApplication1#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "JIHtoqiOEx4n3EfUawAxIBUQYPMUUOLVg6HW7014bxo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Nhom1\\WebApplication1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\css\\site.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\css\\styles.css",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\css\\styles.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "css/styles#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\favicon.ico",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img1.jpg",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img1.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img1#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img1.jpg"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img10.jpg",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img10.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img10#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img10.jpg"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img11.jpg",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img11.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img11#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img11.jpg"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img12.jpg",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img12.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img12#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img12.jpg"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img13.jpg",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img13.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img13#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img13.jpg"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img14.jpg",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img14.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img14#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img14.jpg"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img15.png",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img15.png",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img15#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img15.png"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img16.jpg",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img16.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img16#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img16.jpg"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img17.avif",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img17.avif",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img17#[.{fingerprint}]?.avif",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img17.avif"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img18.avif",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img18.avif",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img18#[.{fingerprint}]?.avif",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img18.avif"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img19.avif",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img19.avif",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img19#[.{fingerprint}]?.avif",
       "AssetKind": "All",
@@ -353,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img19.avif"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img2.png",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img2.png",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img2#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img2.png"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img20.avif",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img20.avif",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img20#[.{fingerprint}]?.avif",
       "AssetKind": "All",
@@ -395,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img20.avif"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img21.jpg",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img21.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img21#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img21.jpg"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img22.jpg",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img22.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img22#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -437,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img22.jpg"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img23.jpg",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img23.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img23#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -458,10 +458,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img23.jpg"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img24.jpg",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img24.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img24#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -479,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img24.jpg"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img25.jpg",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img25.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img25#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -500,10 +500,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img25.jpg"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img26.jpg",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img26.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img26#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -521,10 +521,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img26.jpg"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img27.jpg",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img27.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img27#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -542,10 +542,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img27.jpg"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img28.jpg",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img28.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img28#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -563,10 +563,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img28.jpg"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img29.jpg",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img29.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img29#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -584,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img29.jpg"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img3.avif",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img3.avif",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img3#[.{fingerprint}]?.avif",
       "AssetKind": "All",
@@ -605,10 +605,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img3.avif"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img3.jpg",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img3.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img3#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -626,10 +626,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img3.jpg"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img30.jpg",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img30.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img30#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -647,10 +647,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img30.jpg"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img31.jpg",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img31.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img31#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -668,10 +668,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img31.jpg"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img32.jpg",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img32.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img32#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -689,10 +689,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img32.jpg"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img33.png",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img33.png",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img33#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -710,10 +710,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img33.png"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img34.png",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img34.png",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img34#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img34.png"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img4.jpg",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img4.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img4#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -752,10 +752,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img4.jpg"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img5.jpg",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img5.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img5#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -773,10 +773,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img5.jpg"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img6.jpg",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img6.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img6#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -794,10 +794,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img6.jpg"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img8.jpg",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img8.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img8#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img8.jpg"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img9.jpg",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img9.jpg",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "image/img9#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -836,10 +836,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img9.jpg"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\js\\site.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -857,10 +857,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -878,10 +878,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -899,10 +899,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -920,10 +920,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -941,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -962,10 +962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -983,10 +983,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1004,10 +1004,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1025,10 +1025,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1046,10 +1046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1067,10 +1067,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1109,10 +1109,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1130,10 +1130,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1151,10 +1151,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1172,10 +1172,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1193,10 +1193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1235,10 +1235,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1256,10 +1256,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1277,10 +1277,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1298,10 +1298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1319,10 +1319,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1340,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1361,10 +1361,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1382,10 +1382,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1403,10 +1403,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1424,10 +1424,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1466,10 +1466,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1487,10 +1487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1508,10 +1508,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1529,10 +1529,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1550,10 +1550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1571,10 +1571,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1592,10 +1592,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1634,10 +1634,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1655,10 +1655,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1676,10 +1676,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1697,10 +1697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1718,10 +1718,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1739,10 +1739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1760,10 +1760,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1781,10 +1781,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1823,10 +1823,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1844,10 +1844,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1865,10 +1865,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1886,10 +1886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1907,10 +1907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1928,10 +1928,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1949,10 +1949,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1970,10 +1970,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -1991,10 +1991,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2033,10 +2033,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "WebApplication1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Nhom1\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/WebApplication1",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -2057,7 +2057,7 @@
   "Endpoints": [
     {
       "Route": "css/site.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2078,7 +2078,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2094,7 +2094,7 @@
     },
     {
       "Route": "css/site.mh4zefqudq.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2115,7 +2115,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2139,7 +2139,7 @@
     },
     {
       "Route": "css/styles.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\css\\styles.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\css\\styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2160,7 +2160,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2176,7 +2176,7 @@
     },
     {
       "Route": "css/styles.vxlae57edz.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\css\\styles.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\css\\styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2197,7 +2197,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2221,7 +2221,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2242,7 +2242,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2266,7 +2266,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2287,7 +2287,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2303,7 +2303,7 @@
     },
     {
       "Route": "image/img1.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img1.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2324,7 +2324,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2340,7 +2340,7 @@
     },
     {
       "Route": "image/img1.vcuqv1yine.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img1.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img1.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2361,7 +2361,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2385,7 +2385,7 @@
     },
     {
       "Route": "image/img10.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img10.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img10.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2406,7 +2406,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2422,7 +2422,7 @@
     },
     {
       "Route": "image/img10.yibxn3i15l.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img10.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img10.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2443,7 +2443,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2467,7 +2467,7 @@
     },
     {
       "Route": "image/img11.7gdx9rl2jg.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img11.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img11.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2488,7 +2488,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2512,7 +2512,7 @@
     },
     {
       "Route": "image/img11.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img11.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img11.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2533,7 +2533,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2549,7 +2549,7 @@
     },
     {
       "Route": "image/img12.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img12.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img12.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2570,7 +2570,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2586,7 +2586,7 @@
     },
     {
       "Route": "image/img12.vt3vt3ds1z.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img12.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img12.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2607,7 +2607,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2631,7 +2631,7 @@
     },
     {
       "Route": "image/img13.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img13.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img13.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2652,7 +2652,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2668,7 +2668,7 @@
     },
     {
       "Route": "image/img13.k1qzwdwaup.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img13.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img13.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2689,7 +2689,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2713,7 +2713,7 @@
     },
     {
       "Route": "image/img14.du0r6kms6t.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img14.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img14.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2734,7 +2734,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2758,7 +2758,7 @@
     },
     {
       "Route": "image/img14.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img14.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img14.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2779,7 +2779,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2795,7 +2795,7 @@
     },
     {
       "Route": "image/img15.mspx4qb7bn.png",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img15.png",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img15.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2816,7 +2816,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2840,7 +2840,7 @@
     },
     {
       "Route": "image/img15.png",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img15.png",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img15.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2861,7 +2861,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2877,7 +2877,7 @@
     },
     {
       "Route": "image/img16.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img16.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img16.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2898,7 +2898,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2914,7 +2914,7 @@
     },
     {
       "Route": "image/img16.kpwwp3blvs.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img16.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img16.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2935,7 +2935,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2959,7 +2959,7 @@
     },
     {
       "Route": "image/img17.avif",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img17.avif",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img17.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2980,7 +2980,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2996,7 +2996,7 @@
     },
     {
       "Route": "image/img17.vpjfrzys1a.avif",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img17.avif",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img17.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3017,7 +3017,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3041,7 +3041,7 @@
     },
     {
       "Route": "image/img18.avif",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img18.avif",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img18.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3062,7 +3062,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3078,7 +3078,7 @@
     },
     {
       "Route": "image/img18.ei28eqan38.avif",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img18.avif",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img18.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3099,7 +3099,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3123,7 +3123,7 @@
     },
     {
       "Route": "image/img19.7bl5oxk06r.avif",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img19.avif",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img19.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3144,7 +3144,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3168,7 +3168,7 @@
     },
     {
       "Route": "image/img19.avif",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img19.avif",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img19.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3189,7 +3189,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3205,7 +3205,7 @@
     },
     {
       "Route": "image/img2.cc1ehshzhc.png",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img2.png",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3226,7 +3226,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3250,7 +3250,7 @@
     },
     {
       "Route": "image/img2.png",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img2.png",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3271,7 +3271,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3287,7 +3287,7 @@
     },
     {
       "Route": "image/img20.avif",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img20.avif",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img20.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3308,7 +3308,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3324,7 +3324,7 @@
     },
     {
       "Route": "image/img20.rgpriceslp.avif",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img20.avif",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img20.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3345,7 +3345,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3369,7 +3369,7 @@
     },
     {
       "Route": "image/img21.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img21.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img21.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3390,7 +3390,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3406,7 +3406,7 @@
     },
     {
       "Route": "image/img21.kpwwp3blvs.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img21.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img21.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3427,7 +3427,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3451,7 +3451,7 @@
     },
     {
       "Route": "image/img22.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img22.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img22.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3472,7 +3472,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3488,7 +3488,7 @@
     },
     {
       "Route": "image/img22.tbi6yhyh7w.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img22.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img22.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3509,7 +3509,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3533,7 +3533,7 @@
     },
     {
       "Route": "image/img23.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img23.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img23.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3554,7 +3554,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3570,7 +3570,7 @@
     },
     {
       "Route": "image/img23.ptknjitd4h.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img23.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img23.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3591,7 +3591,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3615,7 +3615,7 @@
     },
     {
       "Route": "image/img24.gbeyrsd1mp.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img24.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img24.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3636,7 +3636,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3660,7 +3660,7 @@
     },
     {
       "Route": "image/img24.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img24.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img24.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3681,7 +3681,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3697,7 +3697,7 @@
     },
     {
       "Route": "image/img25.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img25.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img25.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3718,7 +3718,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3734,7 +3734,7 @@
     },
     {
       "Route": "image/img25.rjctzt1dcr.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img25.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img25.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3755,7 +3755,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3779,7 +3779,7 @@
     },
     {
       "Route": "image/img26.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img26.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img26.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3800,7 +3800,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3816,7 +3816,7 @@
     },
     {
       "Route": "image/img26.wxyl36hjnd.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img26.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img26.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3837,7 +3837,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3861,7 +3861,7 @@
     },
     {
       "Route": "image/img27.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img27.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img27.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3882,7 +3882,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3898,7 +3898,7 @@
     },
     {
       "Route": "image/img27.notzynnxdv.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img27.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img27.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3919,7 +3919,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3943,7 +3943,7 @@
     },
     {
       "Route": "image/img28.8ja25ul32j.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img28.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img28.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3964,7 +3964,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3988,7 +3988,7 @@
     },
     {
       "Route": "image/img28.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img28.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img28.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4009,7 +4009,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4025,7 +4025,7 @@
     },
     {
       "Route": "image/img29.2f5yqbskid.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img29.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img29.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4046,7 +4046,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4070,7 +4070,7 @@
     },
     {
       "Route": "image/img29.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img29.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img29.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4091,7 +4091,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4107,7 +4107,7 @@
     },
     {
       "Route": "image/img3.300vic2yjo.avif",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img3.avif",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img3.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4128,7 +4128,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4152,7 +4152,7 @@
     },
     {
       "Route": "image/img3.avif",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img3.avif",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img3.avif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4173,7 +4173,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4189,7 +4189,7 @@
     },
     {
       "Route": "image/img3.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img3.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4210,7 +4210,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4226,7 +4226,7 @@
     },
     {
       "Route": "image/img3.wkxr67v8kn.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img3.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4247,7 +4247,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4271,7 +4271,7 @@
     },
     {
       "Route": "image/img30.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img30.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img30.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4292,7 +4292,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4308,7 +4308,7 @@
     },
     {
       "Route": "image/img30.ukyzwicbpv.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img30.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img30.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4329,7 +4329,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4353,7 +4353,7 @@
     },
     {
       "Route": "image/img31.8swo4wnl8m.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img31.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img31.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4374,7 +4374,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4398,7 +4398,7 @@
     },
     {
       "Route": "image/img31.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img31.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img31.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4419,7 +4419,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4435,7 +4435,7 @@
     },
     {
       "Route": "image/img32.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img32.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img32.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4456,7 +4456,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4472,7 +4472,7 @@
     },
     {
       "Route": "image/img32.olhmxn81w5.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img32.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img32.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4493,7 +4493,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4517,7 +4517,7 @@
     },
     {
       "Route": "image/img33.b9444q4yvo.png",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img33.png",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img33.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4538,7 +4538,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4562,7 +4562,7 @@
     },
     {
       "Route": "image/img33.png",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img33.png",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img33.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4583,7 +4583,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4599,7 +4599,7 @@
     },
     {
       "Route": "image/img34.11t5jh8ns3.png",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img34.png",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img34.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4620,7 +4620,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4644,7 +4644,7 @@
     },
     {
       "Route": "image/img34.png",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img34.png",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img34.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4665,7 +4665,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4681,7 +4681,7 @@
     },
     {
       "Route": "image/img4.fncf6tbste.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img4.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4702,7 +4702,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4726,7 +4726,7 @@
     },
     {
       "Route": "image/img4.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img4.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4747,7 +4747,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4763,7 +4763,7 @@
     },
     {
       "Route": "image/img5.ipxq8jj9rj.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img5.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4784,7 +4784,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4808,7 +4808,7 @@
     },
     {
       "Route": "image/img5.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img5.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4829,7 +4829,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4845,7 +4845,7 @@
     },
     {
       "Route": "image/img6.e73egih1k3.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img6.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4866,7 +4866,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4890,7 +4890,7 @@
     },
     {
       "Route": "image/img6.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img6.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img6.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4911,7 +4911,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4927,7 +4927,7 @@
     },
     {
       "Route": "image/img8.9et90kyuc2.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img8.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img8.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4948,7 +4948,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4972,7 +4972,7 @@
     },
     {
       "Route": "image/img8.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img8.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img8.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4993,7 +4993,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5009,7 +5009,7 @@
     },
     {
       "Route": "image/img9.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img9.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img9.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5030,7 +5030,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5046,7 +5046,7 @@
     },
     {
       "Route": "image/img9.tnourwfyvz.jpg",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\image\\img9.jpg",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\image\\img9.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5067,7 +5067,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:55:11 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5091,7 +5091,7 @@
     },
     {
       "Route": "js/site.6b9nfc4n3r.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5112,7 +5112,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5136,7 +5136,7 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5157,7 +5157,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5173,7 +5173,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5194,7 +5194,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5210,7 +5210,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5231,7 +5231,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5255,7 +5255,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5276,7 +5276,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5292,7 +5292,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5313,7 +5313,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5337,7 +5337,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5358,7 +5358,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5374,7 +5374,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5395,7 +5395,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5419,7 +5419,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5440,7 +5440,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5456,7 +5456,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.ozu22stjof.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5477,7 +5477,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5501,7 +5501,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5522,7 +5522,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5538,7 +5538,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5559,7 +5559,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5583,7 +5583,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5604,7 +5604,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5620,7 +5620,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.gjcw7pocpk.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5641,7 +5641,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5665,7 +5665,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.6l4ir0ityv.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5686,7 +5686,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5710,7 +5710,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5731,7 +5731,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5747,7 +5747,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5768,7 +5768,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5792,7 +5792,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5813,7 +5813,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5829,7 +5829,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5850,7 +5850,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5866,7 +5866,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5887,7 +5887,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5903,7 +5903,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5924,7 +5924,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5948,7 +5948,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.5p029spbuu.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5969,7 +5969,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5993,7 +5993,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6014,7 +6014,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6030,7 +6030,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6051,7 +6051,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6075,7 +6075,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6096,7 +6096,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6112,7 +6112,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.nakmwdwsxp.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6133,7 +6133,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6157,7 +6157,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6178,7 +6178,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6194,7 +6194,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6215,7 +6215,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6239,7 +6239,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6260,7 +6260,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6276,7 +6276,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.e6q6xbwqzk.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6297,7 +6297,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6321,7 +6321,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6342,7 +6342,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6358,7 +6358,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6379,7 +6379,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6395,7 +6395,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6416,7 +6416,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6440,7 +6440,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.dy6jgresuo.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6461,7 +6461,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6485,7 +6485,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6506,7 +6506,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6522,7 +6522,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6543,7 +6543,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6567,7 +6567,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6588,7 +6588,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6604,7 +6604,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6625,7 +6625,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6641,7 +6641,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6662,7 +6662,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6678,7 +6678,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6699,7 +6699,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6723,7 +6723,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.z7kmom2977.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6744,7 +6744,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6768,7 +6768,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.mk8rdyw69w.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6789,7 +6789,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6813,7 +6813,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.97yrjpyf9r.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6834,7 +6834,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6858,7 +6858,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6879,7 +6879,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6895,7 +6895,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6916,7 +6916,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6940,7 +6940,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6961,7 +6961,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6977,7 +6977,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6998,7 +6998,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7014,7 +7014,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7035,7 +7035,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7051,7 +7051,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7072,7 +7072,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7096,7 +7096,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.y53cy5s2zj.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7117,7 +7117,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7141,7 +7141,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7162,7 +7162,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7178,7 +7178,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7199,7 +7199,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7223,7 +7223,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7244,7 +7244,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7260,7 +7260,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.2yn17lgxub.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7281,7 +7281,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7305,7 +7305,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7326,7 +7326,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7342,7 +7342,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7363,7 +7363,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7379,7 +7379,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7400,7 +7400,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7424,7 +7424,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7445,7 +7445,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7461,7 +7461,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7482,7 +7482,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7506,7 +7506,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7527,7 +7527,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7543,7 +7543,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7564,7 +7564,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7580,7 +7580,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7601,7 +7601,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7625,7 +7625,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7646,7 +7646,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7662,7 +7662,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.ik6i2hrs65.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7683,7 +7683,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7707,7 +7707,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.ophe14yye5.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7728,7 +7728,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7752,7 +7752,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.z9shlbduue.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7773,7 +7773,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7797,7 +7797,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.1piudyfv7h.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7818,7 +7818,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7842,7 +7842,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.f6zq8v6eb3.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7863,7 +7863,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7887,7 +7887,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7908,7 +7908,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7924,7 +7924,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7945,7 +7945,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7969,7 +7969,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7990,7 +7990,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8006,7 +8006,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.89qbw8ngem.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8027,7 +8027,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8051,7 +8051,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8072,7 +8072,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8088,7 +8088,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8109,7 +8109,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8133,7 +8133,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8154,7 +8154,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8170,7 +8170,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8191,7 +8191,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8207,7 +8207,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8228,7 +8228,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8252,7 +8252,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8273,7 +8273,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8289,7 +8289,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.jqwzsa9uv6.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8310,7 +8310,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8334,7 +8334,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8355,7 +8355,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8371,7 +8371,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8392,7 +8392,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8408,7 +8408,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8429,7 +8429,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8453,7 +8453,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.n5w6o92d9r.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8474,7 +8474,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8498,7 +8498,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8519,7 +8519,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8535,7 +8535,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8556,7 +8556,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8580,7 +8580,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8601,7 +8601,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8617,7 +8617,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.4908xmbfjr.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8638,7 +8638,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8662,7 +8662,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8683,7 +8683,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8699,7 +8699,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8720,7 +8720,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8736,7 +8736,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8757,7 +8757,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8781,7 +8781,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8802,7 +8802,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8818,7 +8818,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8839,7 +8839,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8863,7 +8863,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8884,7 +8884,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8900,7 +8900,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.dsw5v3fbc5.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8921,7 +8921,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8945,7 +8945,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8966,7 +8966,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8982,7 +8982,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9003,7 +9003,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9019,7 +9019,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.rm8d4uw1xt.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9040,7 +9040,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9064,7 +9064,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.ukz1g2vv03.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9085,7 +9085,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9109,7 +9109,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.afgyafcsqt.txt",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9130,7 +9130,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9154,7 +9154,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9175,7 +9175,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9191,7 +9191,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9212,7 +9212,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9228,7 +9228,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9249,7 +9249,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9265,7 +9265,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.sjab29p8z5.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9286,7 +9286,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9310,7 +9310,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.wus95c49fh.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9331,7 +9331,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9355,7 +9355,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.d2pxujwhw3.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9376,7 +9376,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9400,7 +9400,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9421,7 +9421,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9437,7 +9437,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.4dm14o4hmc.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9458,7 +9458,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9482,7 +9482,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9503,7 +9503,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9519,7 +9519,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9540,7 +9540,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9556,7 +9556,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9577,7 +9577,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9601,7 +9601,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.dvc2bfcndg.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9622,7 +9622,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9646,7 +9646,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9667,7 +9667,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9683,7 +9683,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9704,7 +9704,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9720,7 +9720,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.mt9h37ga6s.js",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9741,7 +9741,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9765,7 +9765,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9786,7 +9786,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9802,7 +9802,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.wqejeusuyq.txt",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9823,7 +9823,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 05:53:03 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9847,7 +9847,7 @@
     },
     {
       "Route": "WebApplication1.bundle.scp.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9868,7 +9868,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 06:13:12 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9884,7 +9884,7 @@
     },
     {
       "Route": "WebApplication1.styles.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplication1.styles.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplication1.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9905,7 +9905,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 06:13:12 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9921,7 +9921,7 @@
     },
     {
       "Route": "WebApplication1.wh6hypu0ky.bundle.scp.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9942,7 +9942,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 06:13:12 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9966,7 +9966,7 @@
     },
     {
       "Route": "WebApplication1.wh6hypu0ky.styles.css",
-      "AssetFile": "D:\\Nhom1\\WebApplication1\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplication1.styles.css",
+      "AssetFile": "C:\\Subject\\DHDN\\New folder\\Nhom1\\WebApplication1\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplication1.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9987,7 +9987,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 06:13:12 GMT"
+          "Value": "Thu, 15 May 2025 10:44:34 GMT"
         },
         {
           "Name": "Cache-Control",
