@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Views\Blogs\" />
     <Folder Include="wwwroot\image\" />
   </ItemGroup>
 
