@@ -18,6 +18,21 @@ namespace WebApplication1.Controllers
             return View();
         }
 
+        public IActionResult Login()
+        {
+            return View("~/Views/Login/Login.cshtml");
+        }
+
+        public IActionResult Register()
+        {
+            return View("~/Views/Login/Register.cshtml");
+        }
+        public IActionResult Course()
+        {
+            return View("~/Views/Course/Course.cshtml");
+        }
+
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
