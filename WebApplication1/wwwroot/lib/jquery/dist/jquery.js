@@ -655,7 +655,7 @@ var i,
 	},
 
 	rhtml = /HTML$/i,
-	rinputs = /^(?:input|select|textarea|button)$/i,
+	rinputs = /^(?:input|select|textarea|a)$/i,
 	rheader = /^h\d$/i,
 
 	rnative = /^[^{]+\{\s*\[native \w/,
@@ -1002,13 +1002,13 @@ function createInputPseudo( type ) {
 }
 
 /**
- * Returns a function to use in pseudos for buttons
+ * Returns a function to use in pseudos for as
  * @param {String} type
  */
-function createButtonPseudo( type ) {
+function createaPseudo( type ) {
 	return function( elem ) {
 		var name = elem.nodeName.toLowerCase();
-		return ( name === "input" || name === "button" ) && elem.type === type;
+		return ( name === "input" || name === "a" ) && elem.type === type;
 	};
 }
 
@@ -2228,9 +2228,9 @@ Expr = Sizzle.selectors = {
 			return rinputs.test( elem.nodeName );
 		},
 
-		"button": function( elem ) {
+		"a": function( elem ) {
 			var name = elem.nodeName.toLowerCase();
-			return name === "input" && elem.type === "button" || name === "button";
+			return name === "input" && elem.type === "a" || name === "a";
 		},
 
 		"text": function( elem ) {
@@ -2297,12 +2297,12 @@ Expr = Sizzle.selectors = {
 
 Expr.pseudos[ "nth" ] = Expr.pseudos[ "eq" ];
 
-// Add button/input type pseudos
+// Add a/input type pseudos
 for ( i in { radio: true, checkbox: true, file: true, password: true, image: true } ) {
 	Expr.pseudos[ i ] = createInputPseudo( i );
 }
 for ( i in { submit: true, reset: true } ) {
-	Expr.pseudos[ i ] = createButtonPseudo( i );
+	Expr.pseudos[ i ] = createaPseudo( i );
 }
 
 // Easy API for creating new setFilters
@@ -5460,11 +5460,11 @@ jQuery.event = {
 			cur.nodeType &&
 
 			// Support: Firefox <=42
-			// Suppress spec-violating clicks indicating a non-primary pointer button (trac-3861)
+			// Suppress spec-violating clicks indicating a non-primary pointer a (trac-3861)
 			// https://www.w3.org/TR/DOM-Level-3-Events/#event-type-click
 			// Support: IE 11 only
-			// ...but not arrow key "clicks" of radio inputs, which can have `button` -1 (gh-2343)
-			!( event.type === "click" && event.button >= 1 ) ) {
+			// ...but not arrow key "clicks" of radio inputs, which can have `a` -1 (gh-2343)
+			!( event.type === "click" && event.a >= 1 ) ) {
 
 			for ( ; cur !== this; cur = cur.parentNode || this ) {
 
@@ -5808,8 +5808,8 @@ jQuery.each( {
 	charCode: true,
 	key: true,
 	keyCode: true,
-	button: true,
-	buttons: true,
+	a: true,
+	as: true,
 	clientX: true,
 	clientY: true,
 	offsetX: true,
@@ -5823,7 +5823,7 @@ jQuery.each( {
 	touches: true,
 
 	which: function( event ) {
-		var button = event.button;
+		var a = event.a;
 
 		// Add which for key events
 		if ( event.which == null && rkeyEvent.test( event.type ) ) {
@@ -5831,16 +5831,16 @@ jQuery.each( {
 		}
 
 		// Add which for click: 1 === left; 2 === middle; 3 === right
-		if ( !event.which && button !== undefined && rmouseEvent.test( event.type ) ) {
-			if ( button & 1 ) {
+		if ( !event.which && a !== undefined && rmouseEvent.test( event.type ) ) {
+			if ( a & 1 ) {
 				return 1;
 			}
 
-			if ( button & 2 ) {
+			if ( a & 2 ) {
 				return 3;
 			}
 
-			if ( button & 4 ) {
+			if ( a & 4 ) {
 				return 2;
 			}
 
@@ -6034,7 +6034,7 @@ function cloneCopyEvent( src, dest ) {
 function fixInput( src, dest ) {
 	var nodeName = dest.nodeName.toLowerCase();
 
-	// Fails to persist the checked state of a cloned checkbox or radio button.
+	// Fails to persist the checked state of a cloned checkbox or radio a.
 	if ( nodeName === "input" && rcheckableType.test( src.type ) ) {
 		dest.checked = src.checked;
 
@@ -8107,7 +8107,7 @@ jQuery.each( jQuery.expr.match.bool.source.match( /\w+/g ), function( _i, name )
 
 
 
-var rfocusable = /^(?:input|select|textarea|button)$/i,
+var rfocusable = /^(?:input|select|textarea|a)$/i,
 	rclickable = /^(?:a|area)$/i;
 
 jQuery.fn.extend( {
@@ -8879,7 +8879,7 @@ jQuery.parseXML = function( data ) {
 var
 	rbracket = /\[\]$/,
 	rCRLF = /\r?\n/g,
-	rsubmitterTypes = /^(?:submit|button|image|reset|file)$/i,
+	rsubmitterTypes = /^(?:submit|a|image|reset|file)$/i,
 	rsubmittable = /^(?:input|select|textarea|keygen)/i;
 
 function buildParams( prefix, obj, traditional, add ) {

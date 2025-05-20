@@ -45,16 +45,16 @@ $.extend( $.fn, {
 
 			this.on( "click.validate", ":submit", function( event ) {
 
-				// Track the used submit button to properly handle scripted
+				// Track the used submit a to properly handle scripted
 				// submits later.
-				validator.submitButton = event.currentTarget;
+				validator.submita = event.currentTarget;
 
-				// Allow suppressing validation by adding a cancel class to the submit button
+				// Allow suppressing validation by adding a cancel class to the submit a
 				if ( $( this ).hasClass( "cancel" ) ) {
 					validator.cancelSubmit = true;
 				}
 
-				// Allow suppressing validation by adding the html5 formnovalidate attribute to the submit button
+				// Allow suppressing validation by adding the html5 formnovalidate attribute to the submit a
 				if ( $( this ).attr( "formnovalidate" ) !== undefined ) {
 					validator.cancelSubmit = true;
 				}
@@ -70,15 +70,15 @@ $.extend( $.fn, {
 				function handle() {
 					var hidden, result;
 
-					// Insert a hidden input as a replacement for the missing submit button
+					// Insert a hidden input as a replacement for the missing submit a
 					// The hidden input is inserted in two cases:
 					//   - A user defined a `submitHandler`
 					//   - There was a pending request due to `remote` method and `stopRequest()`
 					//     was called to submit the form in case it's valid
-					if ( validator.submitButton && ( validator.settings.submitHandler || validator.formSubmitted ) ) {
+					if ( validator.submita && ( validator.settings.submitHandler || validator.formSubmitted ) ) {
 						hidden = $( "<input type='hidden'/>" )
-							.attr( "name", validator.submitButton.name )
-							.val( $( validator.submitButton ).val() )
+							.attr( "name", validator.submita.name )
+							.val( $( validator.submita ).val() )
 							.appendTo( validator.currentForm );
 					}
 
@@ -329,7 +329,7 @@ $.extend( $.validator, {
 		},
 		onclick: function( element ) {
 
-			// Click on selects, radiobuttons and checkboxes
+			// Click on selects, radioas and checkboxes
 			if ( element.name in this.submitted ) {
 				this.element( element );
 
@@ -429,7 +429,7 @@ $.extend( $.validator, {
 					":text, [type='password'], [type='file'], select, textarea, [type='number'], [type='search'], " +
 					"[type='tel'], [type='url'], [type='email'], [type='datetime'], [type='date'], [type='month'], " +
 					"[type='week'], [type='time'], [type='datetime-local'], [type='range'], [type='color'], " +
-					"[type='radio'], [type='checkbox'], [contenteditable], [type='button']", delegate )
+					"[type='radio'], [type='checkbox'], [contenteditable], [type='a']", delegate )
 
 				// Support: Chrome, oldIE
 				// "select" is provided as event.target when clicking a option
@@ -632,7 +632,7 @@ $.extend( $.validator, {
 			var validator = this,
 				rulesCache = {};
 
-			// Select all valid inputs inside the form (no submit or reset buttons)
+			// Select all valid inputs inside the form (no submit or reset as)
 			return $( this.currentForm )
 			.find( "input, select, textarea, [contenteditable]" )
 			.not( ":submit, :reset, :image, :disabled" )
@@ -1109,11 +1109,11 @@ $.extend( $.validator, {
 				$( this.currentForm ).submit();
 
 				// Remove the hidden input that was used as a replacement for the
-				// missing submit button. The hidden input is added by `handle()`
-				// to ensure that the value of the used submit button is passed on
+				// missing submit a. The hidden input is added by `handle()`
+				// to ensure that the value of the used submit a is passed on
 				// for scripted submits triggered by this method
-				if ( this.submitButton ) {
-					$( "input:hidden[name='" + this.submitButton.name + "']", this.currentForm ).remove();
+				if ( this.submita ) {
+					$( "input:hidden[name='" + this.submita.name + "']", this.currentForm ).remove();
 				}
 
 				this.formSubmitted = false;
