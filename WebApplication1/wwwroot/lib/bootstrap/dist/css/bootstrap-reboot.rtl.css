@@ -274,16 +274,16 @@ label {
   display: inline-block;
 }
 
-button {
+a {
   border-radius: 0;
 }
 
-button:focus:not(:focus-visible) {
+a:focus:not(:focus-visible) {
   outline: 0;
 }
 
 input,
-button,
+a,
 select,
 optgroup,
 textarea {
@@ -293,12 +293,12 @@ textarea {
   line-height: inherit;
 }
 
-button,
+a,
 select {
   text-transform: none;
 }
 
-[role=button] {
+[role=a] {
   cursor: pointer;
 }
 
@@ -313,14 +313,14 @@ select:disabled {
   display: none;
 }
 
-button,
-[type=button],
+a,
+[type=a],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button;
+  -webkit-appearance: a;
 }
-button:not(:disabled),
-[type=button]:not(:disabled),
+a:not(:disabled),
+[type=a]:not(:disabled),
 [type=reset]:not(:disabled),
 [type=submit]:not(:disabled) {
   cursor: pointer;
@@ -369,7 +369,7 @@ legend + * {
   padding: 0;
 }
 
-::-webkit-inner-spin-button {
+::-webkit-inner-spin-a {
   height: auto;
 }
 
@@ -392,13 +392,13 @@ legend + * {
   padding: 0;
 }
 
-::file-selector-button {
+::file-selector-a {
   font: inherit;
 }
 
-::-webkit-file-upload-button {
+::-webkit-file-upload-a {
   font: inherit;
-  -webkit-appearance: button;
+  -webkit-appearance: a;
 }
 
 output {

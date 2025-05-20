@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -7,12 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Blogs\**" />
+    <Content Remove="Views\Blogs\**" />
+    <EmbeddedResource Remove="Views\Blogs\**" />
+    <None Remove="Views\Blogs\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <UpToDateCheckBuilt Include="wwwroot/css/site.css" Set="Css" />
     <UpToDateCheckBuilt Include="tailwind.config.js" Set="Css" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Blogs\" />
     <Folder Include="wwwroot\image\" />
   </ItemGroup>
 

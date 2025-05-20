@@ -43,7 +43,14 @@ namespace WebApplication1.Controllers
         }
         public IActionResult Blog()
         {
+            return View("~/Views/Blog/Blog.cshtml");
+
+        }
+
+        public IActionResult BlogDetail()
+        {
             return View("~/Views/Blog/detailBlog.cshtml");
+
         }
 
 
