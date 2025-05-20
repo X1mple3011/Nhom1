@@ -1,0 +1,154 @@
+﻿@{
+    ViewData["Title"] = "CourseDetail";
+}
+
+<body>
+<div class="container mx-auto p-4 sm:p-6 lg:p-8" x-data="courseDetailData()">
+
+    <header class="mb-8 text-center">
+        <h1 class="text-3xl sm:text-4xl font-bold text-blue-600" x-text="course.name">Đang tải...</h1>
+    </header>
+
+    <div class="bg-white shadow-xl rounded-lg overflow-hidden">
+        <div class="p-6 border-b border-gray-200">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-3">Mô Tả Khóa Học</h2>
+            <p class="text-gray-600 leading-relaxed" x-text="course.description">Đang tải...</p>
+        </div>
+
+        <div class="p-6">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-4">Lịch Tập Luyện</h2>
+            <div class="space-y-4">
+                <template x-for="(session, index) in course.schedule" :key="session.sessionId">
+                    <div class="{
+                                'flex items-center justify-between p-4 rounded-lg shadow transition-all duration-300''
+                                'bg-green-100 border-l-4 border-green-500': session.completed,
+                                'bg-blue-50 border-l-4 border-blue-500 scale-105 shadow-md': !session.completed && isToday(session.date) && session.type === 'workout',
+                                'bg-gray-50 border-l-4 border-gray-300': !session.completed && !isToday(session.date) && session.type === 'workout',
+                                'bg-yellow-50 border-l-4 border-yellow-400': session.type === 'rest'
+                            }">
+                        <div class="flex-grow">
+                            <p class="font-semibold text-gray-700">
+                                <span x-text="formatDate(session.date)"></span> -
+                                <span x-text="session.dayOfWeek"></span>
+                            </p>
+                            <p class="text-sm text-gray-600" x-text="session.topic"></p>
+                        </div>
+                        <div class="ml-4">
+                            <template x-if="session.completed">
+                                <svg class="w-7 h-7 text-green-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            </template>
+                            <template x-if="!session.completed && isToday(session.date) && session.type === 'workout'">
+                                <span class="px-3 py-1 text-xs font-semibold text-blue-700 bg-blue-200 rounded-full">Hôm Nay</span>
+                            </template>
+                            <template x-if="session.type === 'rest' && !session.completed">
+                                <template x-if="isToday(session.date)">
+                                    <span class="px-3 py-1 text-xs font-semibold text-yellow-700 bg-yellow-200 rounded-full">Nghỉ (Hôm Nay)</span>
+                                </template>
+                                <template x-if="!isToday(session.date)">
+                                    <span class="px-3 py-1 text-xs font-semibold text-yellow-600 bg-yellow-100 rounded-full">Nghỉ</span>
+                                </template>
+                            </template>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </div>
+
+        <div class="p-6 text-center border-t border-gray-200" x-cloak>
+            <template x-if="todayWorkoutSession && !todayWorkoutSession.completed">
+                <button
+                    x-on:click="startWorkout(todayWorkoutSession.sessionId)"
+                    class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg shadow-md hover:shadow-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
+                    Bắt Đầu: <span x-text="todayWorkoutSession.topic"></span>
+                </button>
+            </template>
+            <template x-if="todayWorkoutSession && todayWorkoutSession.completed">
+                <p class="text-green-600 font-semibold text-lg">Tuyệt vời! Bạn đã hoàn thành buổi tập hôm nay.</p>
+            </template>
+            <template x-if="!todayWorkoutSession && todayIsRestDay">
+                <p class="text-yellow-700 font-semibold text-lg">Hôm nay là ngày nghỉ ngơi. Hãy thư giãn và phục hồi nhé!</p>
+            </template>
+            <template x-if="!todayWorkoutSession && !todayIsRestDay && !isPastWorkoutPending()">
+                <p class="text-gray-600 font-semibold">Không có buổi tập nào cho hôm nay hoặc đã qua các ngày tập trong lịch.</p>
+            </template>
+            <template x-if="isPastWorkoutPending() && !(todayWorkoutSession && !todayWorkoutSession.completed)">
+                <p class="text-orange-600 font-semibold">Lưu ý: Bạn có buổi tập trước đó chưa hoàn thành.</p>
+            </template>
+        </div>
+    </div>
+</div>
+
+<script>
+    function courseDetailData() {
+        return {
+            // DỮ LIỆU CỨNG CHO KHÓA HỌC
+            course: {
+                id: 'C001',
+                name: 'Thử Thách 7 Ngày Yoga Nâng Cao',
+                description: 'Khóa học này được thiết kế để thử thách giới hạn của bạn với các tư thế yoga nâng cao, tăng cường sức mạnh, sự dẻo dai và tập trung tinh thần. Hãy sẵn sàng cho một hành trình khám phá bản thân!',
+                schedule: [
+
+                    { sessionId: 'S21', date: '2025-05-17', dayOfWeek: 'Thứ Hai', topic: 'Buổi 1: Chuỗi Chào Mặt Trời Nâng Cao', type: 'workout', completed: false },
+                    { sessionId: 'S11', date: '2025-05-18', dayOfWeek: 'Thứ Hai', topic: 'Buổi 1: Chuỗi Chào Mặt Trời Nâng Cao', type: 'workout', completed: false },
+                    { sessionId: 'S01', date: '2025-05-19', dayOfWeek: 'Thứ Hai', topic: 'Buổi 1: Chuỗi Chào Mặt Trời Nâng Cao', type: 'workout', completed: false },
+                    { sessionId: 'S02', date: '2025-05-20', dayOfWeek: 'Thứ Ba', topic: 'Buổi 2: Thăng Bằng Tay & Đảo Ngược', type: 'workout', completed: false },
+                    { sessionId: 'S03', date: '2025-05-21', dayOfWeek: 'Thứ Tư', topic: 'Buổi 3: Uốn Lưng Sâu', type: 'workout', completed: false },
+                    { sessionId: 'S04', date: '2025-05-22', dayOfWeek: 'Thứ Năm', topic: 'Nghỉ Ngơi Chủ Động & Thiền Định', type: 'rest', completed: false },
+                    { sessionId: 'S05', date: '2025-05-23', dayOfWeek: 'Thứ Sáu', topic: 'Buổi 4: Sức Mạnh Cơ Lõi Toàn Diện', type: 'workout', completed: false },
+                    { sessionId: 'S06', date: '2025-05-24', dayOfWeek: 'Thứ Bảy', topic: 'Buổi 5: Yoga Flow Năng Lượng Cao', type: 'workout', completed: false },
+                    { sessionId: 'S07', date: '2025-05-25', dayOfWeek: 'Chủ Nhật', topic: 'Nghỉ Ngơi & Phục Hồi Sâu', type: 'rest', completed: false },
+                ]
+            },
+            todayWorkoutSession: null,
+            todayIsRestDay: false,
+            currentDateOverride: 2025-05-23, //  Đặt ngày ở đây để test, ví dụ: '2025-05-21'. Để null sẽ dùng ngày hiện tại.
+
+
+            get currentDate() {
+                return this.currentDateOverride || new Date().toISOString().split('T')[0];
+            },
+
+            init() {
+                this.loadScheduleStatus();
+                this.todayWorkoutSession = this.course.schedule.find(s => s.date === this.currentDate && s.type === 'workout');
+                this.todayIsRestDay = this.course.schedule.some(s => s.date === this.currentDate && s.type === 'rest');
+
+                if (this.isPastWorkoutPending() && !(this.todayWorkoutSession && !this.todayWorkoutSession.completed) ) {
+                     console.warn("Có buổi tập trước đó chưa hoàn thành.");
+                }
+                // Log ra để dễ debug
+                console.log("Ngày hiện tại (để kiểm tra):", this.currentDate);
+                console.log("Buổi tập hôm nay:", this.todayWorkoutSession);
+                console.log("Hôm nay là ngày nghỉ:", this.todayIsRestDay);
+            },
+            loadScheduleStatus() {
+                this.course.schedule.forEach(session => {
+                    const completedStatus = localStorage.getItem(`course_${this.course.id}_session_${session.sessionId}_completed`);
+                    session.completed = completedStatus === 'true'; // Cập nhật trạng thái completed
+                });
+            },
+            isToday(dateString) {
+                return dateString === this.currentDate;
+            },
+            isPastWorkoutPending() {
+                const now = new Date(this.currentDate);
+                return this.course.schedule.some(s => {
+                    const sessionDate = new Date(s.date);
+
+                    return sessionDate < now && s.type === 'workout' && !s.completed;
+                });
+            },
+            formatDate(dateString) {
+                const date = new Date(dateString + 'T00:00:00');
+                const options = { year: 'numeric', month: 'long', day: 'numeric' };
+                return date.toLocaleDateString('vi-VN', options);
+            },
+            startWorkout(sessionId) {
+                window.location.href = `Workout.html?courseId=${this.course.id}&sessionId=${sessionId}`;
+            }
+        }
+    }
+</script>
+
+
+</body>
