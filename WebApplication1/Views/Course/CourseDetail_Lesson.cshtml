@@ -1,0 +1,404 @@
+﻿@{
+    ViewData["Title"] = "Course Detail - Lesson";
+}
+<body class="bg-gray-900 text-white font-sans antialiased flex flex-col min-h-screen" x-data="workoutSessionData()">
+
+    <header class="bg-gray-800 shadow-md p-4 sticky top-0 z-20">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl sm:text-2xl font-semibold text-blue-400 truncate" x-text="sessionTitle">Đang tải...</h1>
+            <button x-on:click="confirmEndWorkoutEarly()" class="text-sm text-gray-300 hover:text-white transition-colors">
+                &larr; Quay lại chi tiết
+            </button>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto p-4 sm:p-6 lg:p-8 flex flex-col lg:flex-row gap-6 lg:gap-8" x-cloak>
+
+        <div class="lg:w-2/3 flex flex-col gap-6">
+            <section class="bg-gray-800 p-5 rounded-lg shadow-xl">
+                <div class="flex justify-between items-center mb-3">
+                    <h2 class="text-2xl font-bold text-yellow-400" x-text="currentExercise ? currentExercise.name : 'Chưa có bài tập'"></h2>
+                    <span class="text-sm text-gray-400" x-text="currentExercise ? `Bài ${currentExerciseIndex + 1} / ${exercises.length}` : ''"></span>
+                </div>
+
+                <div class="aspect-w-16 aspect-h-9 bg-black rounded-md overflow-hidden mb-4 shadow-lg">
+                    <template x-if="currentExercise && currentExercise.videoUrl">
+                        <video :key="currentExercise.id" class="w-full h-full object-cover" controls :src="currentExercise.videoUrl" x-ref="videoPlayer">
+                            Trình duyệt không hỗ trợ video.
+                        </video>
+                    </template>
+                    <template x-if="currentExercise && !currentExercise.videoUrl">
+                        <div class="w-full h-full flex items-center justify-center bg-gray-700 text-gray-400">Không có video</div>
+                    </template>
+                </div>
+
+                <template x-if="currentExercise && currentExercise.instructions">
+                    <div class="prose prose-sm prose-invert max-w-none text-gray-300 mb-4" x-html="currentExercise.instructions"></div>
+                </template>
+
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 text-center mb-6">
+                    <div class="bg-gray-700 p-3 rounded">
+                        <p class="text-xs text-gray-400 uppercase">Sets</p>
+                        <p class="text-2xl font-bold" x-text="currentExercise ? `${currentSet} / ${currentExercise.sets}` : '-'"></p>
+                    </div>
+                    <div class="bg-gray-700 p-3 rounded">
+                        <p class="text-xs text-gray-400 uppercase">Reps</p>
+                        <p class="text-2xl font-bold" x-text="currentExercise && currentExercise.reps ? currentExercise.reps : (currentExercise && currentExercise.duration ? '-' : 'Tự do')"></p>
+                    </div>
+                    <div class="bg-gray-700 p-3 rounded col-span-2 sm:col-span-1">
+                        <p class="text-xs text-gray-400 uppercase">Thời gian/Set</p>
+                        <p class="text-2xl font-bold" x-text="currentExercise && currentExercise.duration ? formatTime(currentExercise.duration) : (currentExercise && currentExercise.reps ? '-' : 'Không giới hạn')"></p>
+                    </div>
+                </div>
+
+                <div x-show="timer.active" class="mb-6 text-center p-4 rounded-md" :class="timer.isRestTime ? 'bg-blue-700' : 'bg-green-700'">
+                    <p class="text-lg font-medium mb-1" x-text="timer.isRestTime ? 'NGHỈ GIỮA HIỆP' : 'ĐANG TẬP...'"></p>
+                    <p class="text-5xl font-mono font-bold tabular-nums" x-text="formatTime(timer.remaining)"></p>
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-3 justify-center">
+                    <button x-show="!timer.active && !isSessionComplete && currentExercise && currentSet <= currentExercise.sets"
+                    x-on:click="startExerciseOrRest()"
+                            class="flex-1 bg-green-600 hover:bg-green-500 text-white font-semibold py-3 px-5 rounded-md transition duration-150 focus:outline-none focus:ring-2 focus:ring-green-400"
+                            :disabled="!currentExercise">
+                        <span x-text="getStartButtonText()"></span>
+                    </button>
+
+                    <button x-show="!timer.active && !isSessionComplete && currentExercise && currentSet > currentExercise.sets"
+                    x-on:click="nextExercise()"
+                            class="flex-1 bg-blue-600 hover:bg-blue-500 text-white font-semibold py-3 px-5 rounded-md transition duration-150 focus:outline-none focus:ring-2 focus:ring-blue-400">
+                        Bài Tiếp Theo
+                    </button>
+
+                    <button x-show="timer.active && !isSessionComplete"
+                    x-on:click="skipTimer()"
+                            class="flex-1 bg-yellow-600 hover:bg-yellow-500 text-white font-semibold py-3 px-5 rounded-md transition duration-150 focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                        Bỏ Qua Timer
+                    </button>
+                </div>
+                <button x-show="isSessionComplete && !showCongrats"
+                x-on:click="completeSessionAndShowCongrats()"
+                        class="w-full mt-4 bg-purple-600 hover:bg-purple-500 text-white font-bold py-3 px-5 rounded-md transition duration-150 focus:outline-none focus:ring-2 focus:ring-purple-400">
+                    HOÀN THÀNH BUỔI TẬP
+                </button>
+            </section>
+        </div>
+
+        <aside class="lg:w-1/3 bg-gray-800 p-5 rounded-lg shadow-xl lg:sticky lg:top-24 self-start max-h-[calc(100vh-12rem)] overflow-y-auto exercise-list">
+            <h3 class="text-xl font-semibold text-gray-200 mb-4 border-b border-gray-700 pb-2">Danh Sách Bài Tập</h3>
+            <ul class="space-y-3">
+                <template x-for="(exercise, index) in exercises" :key="exercise.id">
+                    <li x-on:click="goToExercise(index)"
+                        class="p-3 rounded-md cursor-pointer transition-all duration-200 hover:bg-gray-600 flex justify-between items-center"
+                        :class="{ 'bg-blue-600 shadow-md scale-105': index === currentExerciseIndex, 'bg-gray-700': index !== currentExerciseIndex, 'opacity-50 line-through': exercise.completed && index !== currentExerciseIndex, 'opacity-70': exercise.completed && index === currentExerciseIndex }">
+                        <span class="truncate" x-text="`${index + 1}. ${exercise.name}`"></span>
+                        <template x-if="exercise.completed">
+                            <svg class="w-5 h-5 text-green-400 ml-2 shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        </template>
+                        <template x-if="index === currentExerciseIndex && !exercise.completed">
+                            <span class="w-3 h-3 bg-yellow-400 rounded-full ml-2 shrink-0 animate-pulse"></span>
+                        </template>
+                    </li>
+                </template>
+                <li x-show="exercises.length === 0" class="text-gray-400">Đang tải bài tập...</li>
+            </ul>
+        </aside>
+    </main>
+
+    <div x-show="showCongrats"
+         x-transition:enter="transition ease-out duration-300"
+         x-transition:enter-start="opacity-0 transform scale-90"
+         x-transition:enter-end="opacity-100 transform scale-100"
+         x-transition:leave="transition ease-in duration-200"
+         x-transition:leave-start="opacity-100 transform scale-100"
+         x-transition:leave-end="opacity-0 transform scale-90"
+         class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center p-4 z-50"
+         style="display: none;">
+        <div class="bg-white text-gray-900 p-8 rounded-lg shadow-xl text-center max-w-md w-full">
+            <svg class="w-16 h-16 text-green-500 mx-auto mb-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <h2 class="text-2xl font-bold mb-3">Tuyệt Vời!</h2>
+            <p class="text-gray-700 mb-6">Bạn đã hoàn thành xuất sắc buổi tập <strong x-text="sessionTitle"></strong>!</p>
+            <button x-on:click="goBackToCourseDetail()"
+                    class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-150">
+                Về Trang Chi Tiết Khóa Học
+            </button>
+        </div>
+    </div>
+
+    <div x-show="showConfirmEndEarlyModal"
+         class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center p-4 z-50"
+         style="display: none;">
+        <div class="bg-white text-gray-900 p-8 rounded-lg shadow-xl text-center max-w-md w-full">
+            <h2 class="text-xl font-bold mb-3">Xác Nhận</h2>
+            <p class="text-gray-700 mb-6">Bạn có chắc muốn kết thúc buổi tập sớm không? Tiến trình của buổi này sẽ không được lưu.</p>
+            <div class="flex justify-center gap-4">
+                <button x-on:click="showConfirmEndEarlyModal = false" class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-6 rounded-lg transition duration-150">
+                    Ở Lại
+                </button>
+                <button x-on:click="goBackToCourseDetail(true)" class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded-lg transition duration-150">
+                    Kết Thúc Sớm
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // DỮ LIỆU CỨNG CHO CÁC BUỔI TẬP
+        const allWorkoutSessions = {
+            'S01': {
+                title: "Buổi 1: Chuỗi Chào Mặt Trời Nâng Cao",
+                exercises: [
+                    { id: 'S01E01', name: 'Warm Up: Cat-Cow & Thread Needle', duration: 120, sets: 1, reps: null, videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4', instructions: 'Thực hiện mỗi động tác 60 giây, chuyển động nhẹ nhàng theo hơi thở.', completed: false },
+                    { id: 'S01E02', name: 'Sun Salutation A (Surya Namaskar A) - Nhanh', duration: null, sets: 5, reps: 1, restBetweenSets: 15, videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4', instructions: 'Thực hiện 1 vòng Chào Mặt Trời A cho mỗi rep. Nghỉ 15 giây giữa các set.', completed: false },
+                    { id: 'S01E03', name: 'Sun Salutation B (Surya Namaskar B) - Chậm & Giữ', duration: null, sets: 3, reps: 1, restBetweenSets: 30, videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4', instructions: 'Thực hiện 1 vòng Chào Mặt Trời B, giữ mỗi tư thế chính (Warrior I, Downward Dog) trong 3-5 nhịp thở.', completed: false },
+                    { id: 'S01E04', name: 'Cool Down: Savasana (Tư thế xác chết)', duration: 180, sets: 1, reps: null, videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4', instructions: 'Nằm thư giãn hoàn toàn, để cơ thể chìm sâu xuống sàn.', completed: false }
+                ]
+            },
+            'S02': {
+                title: "Buổi 2: Thăng Bằng Tay & Đảo Ngược",
+                exercises: [
+                    { id: 'S02E01', name: 'Warm Up: Wrist & Shoulder Mobility', duration: 120, sets: 1, reps: null, videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4', instructions: 'Xoay cổ tay, vai, chuẩn bị cho các tư thế chịu lực.', completed: false },
+                    { id: 'S02E02', name: 'Crow Pose (Bakasana) Prep', duration: null, sets: 3, reps: 5, restBetweenSets: 60, videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4', instructions: 'Tập nhấc từng chân hoặc cả hai chân lên khỏi sàn, giữ 1-2 giây. Reps là số lần thử thành công.', completed: false },
+                    { id: 'S02E03', name: 'Headstand (Sirsasana) Prep (Gần tường)', duration: null, sets: 3, reps: 1, restBetweenSets: 90, videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4', instructions: 'Tập lên tư thế trồng cây chuối với sự hỗ trợ của tường nếu cần. Giữ trong 10-30 giây.', completed: false },
+                    { id: 'S02E04', name: 'Shoulder Stand (Sarvangasana) & Plough (Halasana)', duration: 180, sets: 1, reps: null, videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4', instructions: 'Giữ mỗi tư thế khoảng 60-90 giây.', completed: false }
+                ]
+            },
+            'S03': {
+                title: "Buổi 3: Uốn Lưng Sâu",
+                exercises: [
+                    { id: 'S03E01', name: 'Warm Up: Spine Flexion & Extension', duration: 150, sets: 1, videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4', instructions: 'Tập trung vào làm nóng cột sống: Cat-Cow, Cobra nhẹ, Sphinx.', completed: false },
+                    { id: 'S03E02', name: 'Camel Pose (Ustrasana)', sets: 3, reps: 1, restBetweenSets: 45, duration: 30, videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4', instructions: 'Giữ tư thế Lạc Đà trong 30 giây mỗi set. Reps ở đây là số lần giữ thành công.', completed: false },
+                    { id: 'S03E03', name: 'Wheel Pose (Urdhva Dhanurasana) Prep/Full', sets: 3, reps: 1, restBetweenSets: 60, duration: 15, videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4', instructions: 'Cố gắng lên tư thế Bánh Xe, giữ 15 giây. Nếu chưa được, tập Bridge Pose.', completed: false },
+                    { id: 'S03E04', name: 'Counter Poses: Child\'s Pose, Gentle Twists', duration: 120, sets: 1, videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4', instructions: 'Thư giãn cột sống với các tư thế đối kháng.', completed: false }
+                ]
+            },
+            // Thêm các buổi tập khác (S04, S05, S06, S07) với cấu trúc tương tự nếu cần
+            'S04': { // Ví dụ cho S05
+                title: "Buổi 4: Sức Mạnh Cơ Lõi Toàn Diện",
+                exercises: [
+                     { id: 'S05E01', name: 'Warm Up: Dynamic Core Activation', duration: 120, sets: 1, reps: null, videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4', instructions: 'Bird-dog, dead bug, light crunches.', completed: false },
+                     { id: 'S05E02', name: 'Plank Variations (Forearm, Side, High)', duration: 60, sets: 3, reps: 1, restBetweenSets: 30, videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4', instructions: 'Mỗi set là 60 giây Plank, có thể chia nhỏ (ví dụ: 20s mỗi loại).', completed: false },
+                     { id: 'S05E03', name: 'Boat Pose (Navasana)', duration: 30, sets: 3, reps: 1, restBetweenSets: 30, videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4', instructions: 'Giữ tư thế Con Thuyền trong 30 giây.', completed: false },
+                     { id: 'S05E04', name: 'Leg Raises', duration: null, sets: 3, reps: 15, restBetweenSets: 45, videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4', instructions: 'Nằm nâng 2 chân thẳng.', completed: false },
+                ]
+            },
+             'S06': { // Ví dụ cho S06
+                title: "Buổi 5: Yoga Flow Năng Lượng Cao",
+                exercises: [
+                     { id: 'S06E01', name: 'Full Body Warm Up Flow', duration: 180, sets: 1, reps: null, videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4', instructions: 'Một chuỗi khởi động liên tục, làm nóng toàn thân.', completed: false },
+                     { id: 'S06E02', name: 'Vinyasa Flow Sequence 1', duration: 600, sets: 1, reps: null, videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4', instructions: 'Một chuỗi Vinyasa 10 phút, tập trung vào sự liên kết hơi thở và chuyển động. (Video sẽ là một bài tập dài)', completed: false },
+                     { id: 'S06E03', name: 'Vinyasa Flow Sequence 2 (Challenging)', duration: 600, sets: 1, reps: null, videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4', instructions: 'Một chuỗi Vinyasa thử thách hơn, 10 phút. (Video sẽ là một bài tập dài)', completed: false },
+                     { id: 'S06E04', name: 'Deep Stretch & Savasana', duration: 300, sets: 1, reps: null, videoUrl: 'https://www.w3schools.com/html/mov_bbb.mp4', instructions: 'Kéo giãn sâu và thư giãn cuối buổi.', completed: false },
+                ]
+            }
+        };
+
+
+        function workoutSessionData() {
+            return {
+                courseId: null,
+                sessionId: null,
+                sessionTitle: "Đang tải buổi tập...",
+                exercises: [S05], // Sẽ được điền từ allWorkoutSessions
+                currentExerciseIndex: 0,
+                currentSet: 1,
+                timer: { active: false, remaining: 0, duration: 0, isRestTime: false, intervalId: null },
+                showCongrats: false,
+                isSessionComplete: false,
+                showConfirmEndEarlyModal: false,
+
+                get currentExercise() {
+                    return this.exercises.length > 0 ? this.exercises[this.currentExerciseIndex] : null;
+                },
+
+                init() {
+                    const urlParams = new URLSearchParams(window.location.search);
+                    this.courseId = urlParams.get('courseId');
+                    this.sessionId = urlParams.get('sessionId');
+
+                    const sessionData = allWorkoutSessions[this.sessionId];
+                    if (sessionData) {
+                        this.sessionTitle = sessionData.title;
+                        // Tạo bản sao của exercises để tránh thay đổi dữ liệu gốc và reset 'completed' status
+                        this.exercises = JSON.parse(JSON.stringify(sessionData.exercises)).map(ex => ({ ...ex, completed: false }));
+                    } else {
+                        this.sessionTitle = "Không tìm thấy buổi tập";
+                        this.exercises = [];
+                    }
+                    this.resetToCurrentExercise();
+                },
+
+                resetToCurrentExercise() {
+                    if (!this.currentExercise) return;
+                    this.currentSet = 1;
+                    this.stopTimer();
+                    this.timer.isRestTime = false;
+                    if (this.$refs.videoPlayer && this.currentExercise.videoUrl) {
+                        this.$refs.videoPlayer.load();
+                    }
+                },
+
+                formatTime(totalSeconds) {
+                    if (totalSeconds === null || totalSeconds === undefined) return '00:00';
+                    const minutes = Math.floor(totalSeconds / 60);
+                    const seconds = totalSeconds % 60;
+                    return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+                },
+
+                startTimer(durationInSeconds, isRest) {
+                    this.stopTimer();
+                    this.timer.duration = durationInSeconds;
+                    this.timer.remaining = durationInSeconds;
+                    this.timer.isRestTime = isRest;
+                    this.timer.active = true;
+                    if (this.$refs.videoPlayer) this.$refs.videoPlayer.pause(); // Tạm dừng video khi timer chạy
+
+                    this.timer.intervalId = setInterval(() => {
+                        this.timer.remaining--;
+                        if (this.timer.remaining <= 0) {
+                            this.stopTimer();
+                            if (this.timer.isRestTime) {
+                                this.timer.isRestTime = false;
+                                if (this.currentExercise.duration) { // Nếu bài tập có duration, tự động bắt đầu set
+                                   // this.startTimer(this.currentExercise.duration, false); // Comment lại để người dùng chủ động click
+                                }
+                                 if (this.$refs.videoPlayer && this.currentExercise.videoUrl) this.$refs.videoPlayer.play();
+                            } else {
+                                this.completeCurrentSet();
+                            }
+                        }
+                    }, 1000);
+                },
+
+                stopTimer() {
+                    clearInterval(this.timer.intervalId);
+                    this.timer.active = false;
+                },
+
+                skipTimer() {
+                    const wasRestTime = this.timer.isRestTime;
+                    this.stopTimer();
+                    if (wasRestTime) {
+                         this.timer.isRestTime = false;
+                         // if (this.currentExercise.duration) { this.startTimer(this.currentExercise.duration, false); } // Tạm comment
+                         if (this.$refs.videoPlayer && this.currentExercise.videoUrl) this.$refs.videoPlayer.play();
+                    } else {
+                        this.completeCurrentSet();
+                    }
+                },
+
+                getStartButtonText() {
+                    if (!this.currentExercise) return "Bắt Đầu";
+                    // if (this.currentSet > this.currentExercise.sets) return "Bài Tiếp Theo"; // Logic này đã chuyển sang nút riêng
+                    if (this.timer.isRestTime) return "Bắt Đầu Nghỉ"; // Sẽ không hiển thị vì timer active
+                    return `Bắt Đầu Set ${this.currentSet} (${this.currentExercise.reps ? this.currentExercise.reps + ' reps' : this.formatTime(this.currentExercise.duration)})`;
+                },
+
+                startExerciseOrRest() {
+                    if (!this.currentExercise || this.isSessionComplete || this.timer.active) return;
+
+                    if (this.currentSet > this.currentExercise.sets) { // Đã hoàn thành các set của bài này
+                        this.nextExercise(); // Nên là nút "Bài tiếp theo" riêng
+                        return;
+                    }
+
+                    if (this.$refs.videoPlayer && this.currentExercise.videoUrl) this.$refs.videoPlayer.play();
+
+                    if (this.currentExercise.duration) {
+                        this.startTimer(this.currentExercise.duration, false);
+                    } else {
+                        // Bài tập theo Reps, không tự động chạy timer tập, người dùng sẽ tự bấm hoàn thành set
+                        // Nút "Bắt Đầu Set" lúc này đóng vai trò như "Tôi đang tập set này"
+                        // Cần một nút "Hoàn thành set" khác hoặc logic khác.
+                        // Tạm thời, sau khi click, chờ người dùng tự hoàn thành rồi bấm "Bài tiếp theo" (nếu hết set) hoặc "Hoàn thành set" (ẩn)
+                        // Để đơn giản, giả sử sau khi bấm vào đây, người dùng tập và tự coi là xong set
+                        // Ta cần 1 nút "Hoàn thành set" rõ ràng hơn.
+                        // Hiện tại, logic hoàn thành set được xử lý khi hết timer, hoặc khi bấm nextExercise (nếu reps đã đủ)
+                        // Giải pháp: Nếu không có duration, nút này chỉ để play video. Cần 1 nút "Hoàn thành Set (Reps)"
+                        // Trong thiết kế hiện tại, sau khi bấm "Bắt đầu Set", nếu là bài theo reps, người dùng sẽ cần bấm "Bài tiếp theo" để ghi nhận set đó và chuyển
+                        // -> Cải tiến: Nếu là bài theo reps, nút "Bắt Đầu Set" sẽ kích hoạt, sau đó họ cần bấm "Bài tiếp theo" (nếu hết set) hoặc một nút "Đã xong set"
+                         this.completeCurrentSet(); // Nếu không có duration, coi như bấm là hoàn thành set đó luôn.
+                    }
+                },
+
+                completeCurrentSet() {
+                    this.stopTimer();
+                    if (!this.currentExercise) return;
+
+                    if (this.currentSet <= this.currentExercise.sets) {
+                        this.currentSet++;
+                    }
+
+                    if (this.currentSet > this.currentExercise.sets) {
+                        this.currentExercise.completed = true;
+                        // Không tự động chuyển bài, chờ người dùng click "Bài Tiếp Theo"
+                        // Hoặc kiểm tra nếu là bài cuối cùng
+                        if (this.currentExerciseIndex === this.exercises.length - 1) {
+                            this.isSessionComplete = true;
+                             // Không tự động hiện modal chúc mừng, chờ nút "Hoàn thành buổi tập"
+                        }
+                    } else { // Còn set tiếp theo -> bắt đầu nghỉ (nếu có)
+                        if (this.currentExercise.restBetweenSets > 0) {
+                            this.startTimer(this.currentExercise.restBetweenSets, true);
+                        } else {
+                            // Không có nghỉ, chờ người dùng click "Bắt đầu Set" tiếp theo
+                             if (this.$refs.videoPlayer && this.currentExercise.videoUrl) this.$refs.videoPlayer.play();
+                        }
+                    }
+                },
+
+                nextExercise() {
+                    this.stopTimer();
+                    if (!this.currentExercise) return;
+
+                    if (!this.currentExercise.completed) { // Đảm bảo bài hiện tại được đánh dấu hoàn thành
+                        this.currentExercise.completed = true;
+                        this.currentSet = this.currentExercise.sets + 1; // Đẩy currentSet qua mức tối đa
+                    }
+
+                    if (this.currentExerciseIndex < this.exercises.length - 1) {
+                        this.currentExerciseIndex++;
+                        this.resetToCurrentExercise();
+                    } else {
+                        this.isSessionComplete = true; // Đã ở bài cuối và hoàn thành nó
+                         // Không tự động hiện modal chúc mừng, chờ nút "Hoàn thành buổi tập"
+                    }
+                },
+
+                goToExercise(index) {
+                    if (this.timer.active) {
+                        if (!confirm("Đang trong hiệp tập/nghỉ. Chuyển bài sẽ dừng timer. Tiếp tục?")) return;
+                    }
+                    this.stopTimer();
+                    this.currentExerciseIndex = index;
+                    this.resetToCurrentExercise();
+                },
+
+                completeSessionAndShowCongrats() { // Khi người dùng bấm nút "HOÀN THÀNH BUỔI TẬP"
+                    this.isSessionComplete = true; // Đảm bảo
+                    this.showCongrats = true;
+                    localStorage.setItem(`course_${this.courseId}_session_${this.sessionId}_completed`, 'true');
+                    console.log(`Buổi tập ${this.sessionId} của khóa ${this.courseId} đã hoàn thành.`);
+                },
+
+                confirmEndWorkoutEarly() {
+                    if (this.isSessionComplete && this.showCongrats) { // Nếu đã hiện modal chúc mừng thì quay lại luôn
+                        this.goBackToCourseDetail();
+                        return;
+                    }
+                    this.showConfirmEndEarlyModal = true;
+                },
+
+                goBackToCourseDetail(isEarly = false) {
+                    if (isEarly) {
+                        console.log("Buổi tập kết thúc sớm.");
+                         // Không lưu trạng thái hoàn thành nếu kết thúc sớm
+                    }
+                    window.location.href = `CourseDetail.html?courseId=${this.courseId}`;
+                }
+            }
+        }
+    </script>
+
+
+</body>s

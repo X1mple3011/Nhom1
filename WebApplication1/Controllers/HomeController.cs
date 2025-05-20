@@ -32,6 +32,20 @@ namespace WebApplication1.Controllers
             return View("~/Views/Course/Course.cshtml");
         }
 
+        public IActionResult CourseDetail()
+        {
+            return View("~/Views/Course/CourseDetail.cshtml");
+        }
+
+        public IActionResult CourseDetail_Lesson()
+        {
+            return View("~/Views/Course/CourseDetail_Lesson.cshtml");
+        }
+        public IActionResult Blog()
+        {
+            return View("~/Views/Blog/detailBlog.cshtml");
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
